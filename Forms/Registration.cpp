@@ -100,7 +100,7 @@ public:
             if (users[i].getUserName() == username) {
                 users.erase(users.begin() + i);
                 DataUser.erase(DataUser.begin() + i);
-                saveDataToFile();  // Save after deletion
+                saveDataToFile();  
                 cout << "\t\t User Removed Successfully...." << endl;
                 return;
             }

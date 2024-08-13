@@ -31,4 +31,5 @@
 *.out
 *.app
 
-userdata.txt
+/Forms/userdata.txt
+/Movies/moviedata.txt
